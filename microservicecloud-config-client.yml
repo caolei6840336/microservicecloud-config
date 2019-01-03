@@ -1,4 +1,4 @@
-﻿spring:
+spring:
   prot: 8201
 spring:
   profiles: dev

@@ -1,4 +1,8 @@
 spring:
+  profiles:
+    active: -dev
+---
+server:
   prot: 8201
 spring:
   profiles: dev
@@ -9,7 +13,7 @@ eureka:
     service-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
 ---
-spring:
+server:
   prot: 8202
 spring:
   profiles: test
